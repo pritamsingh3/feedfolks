@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FeedFolks</string>
+    <string name="register">Register</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="name">Name</string>
+    <string name="already_having_an_account">Already have an account?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="fill_in_the_details_to_create_account">Please Provide the Required Details</string>
+    <string name="donate">Donate</string>
+    <string name="dshbrod">My Dashboard</string>
+    <string name="Receive">Receive</string>
+    <string name="foodp">Food Point</string>
+    <string name="pins">Pinned By Me</string>
+    <string name="hist">History</string>
+    <string name="logout">Log Out</string>
+    <string name="submit">Submit</string>
+    <string name="description">Description</string>
+    <string name="food_item">Food Item</string>
+    <string name="Donorname">Donor Name</string>
+    <string name="receive">Receive</string>
+    <string name="recname">Receiver Name</string>
+    <string name="food_desc">Food Description</string>
+    <string name="foodmap">Food Points</string>
+    <string name="delete">Delete</string>
+    <string name="forexample_gmail_com">Enter your registered E-mail</string>
+    <string name="reset">Reset Password</string>
+    <string name="reset_password">Reset Password</string>
+</resources>

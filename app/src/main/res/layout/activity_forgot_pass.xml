@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ForgotPass">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+            app:title="@string/reset_password"
+            app:titleTextColor="@color/white"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/userEmil"
+        style="@style/Widget.Material3.CardView.Outlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_below="@id/appbar"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        app:boxCornerRadiusBottomEnd="7dp"
+        app:boxCornerRadiusBottomStart="7dp"
+        app:circularflow_radiusInDP="7dp"
+        app:boxCornerRadiusTopEnd="7dp"
+        app:boxCornerRadiusTopStart="7dp"
+        android:hint="@string/forexample_gmail_com"
+        app:boxStrokeColor="@color/appdef"
+        app:endIconMode="clear_text"
+        app:hintTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_mail">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:boxCornerRadiusBottomEnd="7dp"
+            app:boxCornerRadiusBottomStart="7dp"
+            app:circularflow_radiusInDP="7dp"
+            app:boxCornerRadiusTopEnd="7dp"
+            app:boxCornerRadiusTopStart="7dp"
+            android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/resetpswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userEmil"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:padding="16dp"
+        android:text="@string/reset"
+        android:textAllCaps="false"
+        app:cornerRadius="20dp" />
+
+</RelativeLayout>
