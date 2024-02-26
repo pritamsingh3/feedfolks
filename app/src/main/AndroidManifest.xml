@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abhip.feedfolks">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FeedFolks">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCpQ_tqQMK3RuLyymRYdqfw3QDhssYsyD8" />
+
+        <activity
+            android:name=".UserData"
+            android:exported="true" />
+        <activity
+            android:name=".UserHistory"
+            android:exported="true" />
+        <activity
+            android:name=".MyPins"
+            android:exported="true" />
+        <activity
+            android:name=".FoodPoint"
+            android:exported="true" />
+        <activity
+            android:name=".Receive"
+            android:exported="true" />
+        <activity
+            android:name=".Donate"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPass"
+            android:exported="true" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
